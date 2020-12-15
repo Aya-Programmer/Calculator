@@ -1,0 +1,77 @@
+
+          
+                .loader {
+                    position: fixed;
+                    z-index: 99;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgb(255, 255, 255);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    }
+                    
+                    .loader > img {
+                    width: 150px;
+                    }
+                    
+                    .loader.hidden {
+                    animation:fadeOut 2s;
+                    animation-fill-mode: forwards;
+                    }
+                    
+                    @keyframes fadeOut {
+                    100% {
+                    opacity: 0;
+                    visibility: hidden;
+                    }
+                     }
+                    
+                
+                
+                @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+                
+                                body {
+                                    height: 100;
+                                     background: linear-gradient(45deg,#cf61fa,#3372e7ea);
+                                }
+                                .button {
+                                width: 50px;
+                                height: 50px;
+                                font-size: 25px;
+                                margin: 2px;
+                                font-family: arial;
+                                text-transform: uppercase;
+                                text-align: center;
+                                border: solid 0.1px #ffffff00;
+                                border-radius: 40px;
+                                color: #ffffff;
+                                position: relative;
+                                overflow: hidden;
+                                background:#c563ecb9;
+                                box-shadow: 0 0 5px #15052e52;
+                                transition: .3s;
+                                }
+                                .textview {
+                                    width: 208.5px;
+                                    margin-bottom: 5px;
+                                    margin-left: -73px;
+                                border-radius: 30px;
+                                    font-size: 26px;
+                                    padding: 5px;
+                                    color: #983fbb;
+                                    border:0.5px solid #983fbb;
+                                    text-align: center;
+                                    box-shadow: 0 0 5px #15052e31;
+                                    background: linear-gradient(45deg,#c563ec00,#3372e700);
+                                }
+                                .mn {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translateX(-50%)translateY(-50%);
+                                }
+                                
+                    
